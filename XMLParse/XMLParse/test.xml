@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Notes>
+	<Note id="1">
+		<CDate>2012-12-12</CDate>
+		<Content>“8点到公司来”</Content>
+		<UserID>tony</UserID>
+	</Note>
+	<Note id="2">
+		<CDate>2012-12-14</CDate>
+		<Content>“9点开会”</Content>
+		<UserID>tony</UserID>
+	</Note>
+	<Note id="3">
+		<CDate>2012-12-15</CDate>
+		<Content>“12点和客户吃饭”</Content>
+		<UserID>tony</UserID>
+	</Note>
+	<Note id="4">
+		<CDate>2012-12-16</CDate>
+		<Content>“18点接客户”</Content>
+		<UserID>tony</UserID>
+	</Note>
+	<Note id="5">
+		<CDate>2012-12-17</CDate>
+		<Content>“13点订飞机票”</Content>
+		<UserID>tony</UserID>
+	</Note>
+	<Note id="6">
+		<CDate>2012-12-18</CDate>
+		<Content>“15点请假看病”</Content>
+		<UserID>tony</UserID>
+	</Note>
+</Notes>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximun-scale=1.0, user-scalabel=no;"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+		
+	</head>
+	
+	<body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+		<h2>ios本地与web互相调用</h2>
+		<button onclick='showAndroidDialog("JS to ios 对象")'> 调用ios对象</button>
+		<div id='message'></div>
+	</body>
+   
+
+</html>
+
+<script>
+    //从ios对象中调用
+    function helloworld(msg){
+        document.getElementById('message').innerHTML = msg;
+    }
+    //调用ios对象
+    function showAndroidDialog(msg){
+        var myJSONObject = new Object();
+        myJSONObject.title = 'helloworld';
+        myJSONObject.message = msg;
+        var JSONString = JSON.stringify(myJSONObject);
+        var uri = 'gap://XXXClass.XXXmethod#'+JSONString;
+        window.location = uri;
+        
+    }
+</script>
+

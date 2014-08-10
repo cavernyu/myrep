@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K7p-Gb-Gd7"/>
+                        <viewControllerLayoutGuide type="bottom" id="JiM-Ht-jsR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNq-2k-ooM">
+                                <rect key="frame" x="-6" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Home" id="Zum-Hf-XXk">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="save" id="Drq-DT-KOd">
+                                            <connections>
+                                                <action selector="save:" destination="vXZ-lx-hvc" id="0wi-Gv-eKm"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="iFU-38-aJU">
+                                            <connections>
+                                                <action selector="add:" destination="vXZ-lx-hvc" id="dIW-iE-Pux"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRq-0k-hkb">
+                                <rect key="frame" x="56" y="229" width="197" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cNq-2k-ooM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="-6" id="8H7-ER-Mgs"/>
+                            <constraint firstItem="fRq-0k-hkb" firstAttribute="centerX" secondItem="cNq-2k-ooM" secondAttribute="centerX" id="IMh-H7-W9n"/>
+                            <constraint firstItem="cNq-2k-ooM" firstAttribute="top" secondItem="K7p-Gb-Gd7" secondAttribute="bottom" constant="2" id="PjX-Ef-o1h"/>
+                            <constraint firstAttribute="trailing" secondItem="cNq-2k-ooM" secondAttribute="trailing" constant="6" id="TaF-MX-wrk"/>
+                            <constraint firstItem="fRq-0k-hkb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="56" id="a64-cy-17g"/>
+                            <constraint firstItem="JiM-Ht-jsR" firstAttribute="top" secondItem="fRq-0k-hkb" secondAttribute="bottom" constant="318" id="hqt-c7-Pv8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="fRq-0k-hkb" id="inp-pz-Ryf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

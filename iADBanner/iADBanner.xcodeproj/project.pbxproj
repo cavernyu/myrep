@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA561A9A194616FF00FF00F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA561A99194616FF00FF00F0 /* Foundation.framework */; };
+		BA561A9C194616FF00FF00F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA561A9B194616FF00FF00F0 /* CoreGraphics.framework */; };
+		BA561A9E194616FF00FF00F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA561A9D194616FF00FF00F0 /* UIKit.framework */; };
+		BA561AA4194616FF00FF00F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA561AA2194616FF00FF00F0 /* InfoPlist.strings */; };
+		BA561AA6194616FF00FF00F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA561AA5194616FF00FF00F0 /* main.m */; };
+		BA561AAA194616FF00FF00F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA561AA9194616FF00FF00F0 /* AppDelegate.m */; };
+		BA561AAD194616FF00FF00F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA561AAB194616FF00FF00F0 /* Main.storyboard */; };
+		BA561AB0194616FF00FF00F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA561AAF194616FF00FF00F0 /* ViewController.m */; };
+		BA561AB2194616FF00FF00F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA561AB1194616FF00FF00F0 /* Images.xcassets */; };
+		BA561AB91946170000FF00F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA561AB81946170000FF00F0 /* XCTest.framework */; };
+		BA561ABA1946170000FF00F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA561A99194616FF00FF00F0 /* Foundation.framework */; };
+		BA561ABB1946170000FF00F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA561A9D194616FF00FF00F0 /* UIKit.framework */; };
+		BA561AC31946170000FF00F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA561AC11946170000FF00F0 /* InfoPlist.strings */; };
+		BA561AC51946170000FF00F0 /* iADBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA561AC41946170000FF00F0 /* iADBannerTests.m */; };
+		BA561ACF1946170E00FF00F0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA561ACE1946170E00FF00F0 /* iAd.framework */; };
+		BA561AD419461A3000FF00F0 /* animal-1.png in Resources */ = {isa = PBXBuildFile; fileRef = BA561AD019461A3000FF00F0 /* animal-1.png */; };
+		BA561AD519461A3000FF00F0 /* animal-2.png in Resources */ = {isa = PBXBuildFile; fileRef = BA561AD119461A3000FF00F0 /* animal-2.png */; };
+		BA561AD619461A3000FF00F0 /* animal-3.png in Resources */ = {isa = PBXBuildFile; fileRef = BA561AD219461A3000FF00F0 /* animal-3.png */; };
+		BA561AD719461A3000FF00F0 /* animal-4.png in Resources */ = {isa = PBXBuildFile; fileRef = BA561AD319461A3000FF00F0 /* animal-4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA561ABC1946170000FF00F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA561A8E194616FF00FF00F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA561A95194616FF00FF00F0;
+			remoteInfo = iADBanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA561A96194616FF00FF00F0 /* iADBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iADBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA561A99194616FF00FF00F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA561A9B194616FF00FF00F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA561A9D194616FF00FF00F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA561AA1194616FF00FF00F0 /* iADBanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iADBanner-Info.plist"; sourceTree = "<group>"; };
+		BA561AA3194616FF00FF00F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA561AA5194616FF00FF00F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA561AA7194616FF00FF00F0 /* iADBanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iADBanner-Prefix.pch"; sourceTree = "<group>"; };
+		BA561AA8194616FF00FF00F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA561AA9194616FF00FF00F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA561AAC194616FF00FF00F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA561AAE194616FF00FF00F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA561AAF194616FF00FF00F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA561AB1194616FF00FF00F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA561AB71946170000FF00F0 /* iADBannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iADBannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA561AB81946170000FF00F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA561AC01946170000FF00F0 /* iADBannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iADBannerTests-Info.plist"; sourceTree = "<group>"; };
+		BA561AC21946170000FF00F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA561AC41946170000FF00F0 /* iADBannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iADBannerTests.m; sourceTree = "<group>"; };
+		BA561ACE1946170E00FF00F0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		BA561AD019461A3000FF00F0 /* animal-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-1.png"; sourceTree = "<group>"; };
+		BA561AD119461A3000FF00F0 /* animal-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-2.png"; sourceTree = "<group>"; };
+		BA561AD219461A3000FF00F0 /* animal-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-3.png"; sourceTree = "<group>"; };
+		BA561AD319461A3000FF00F0 /* animal-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-4.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA561A93194616FF00FF00F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA561ACF1946170E00FF00F0 /* iAd.framework in Frameworks */,
+				BA561A9C194616FF00FF00F0 /* CoreGraphics.framework in Frameworks */,
+				BA561A9E194616FF00FF00F0 /* UIKit.framework in Frameworks */,
+				BA561A9A194616FF00FF00F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA561AB41946170000FF00F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA561AB91946170000FF00F0 /* XCTest.framework in Frameworks */,
+				BA561ABB1946170000FF00F0 /* UIKit.framework in Frameworks */,
+				BA561ABA1946170000FF00F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA561A8D194616FF00FF00F0 = {
+			isa = PBXGroup;
+			children = (
+				BA561A9F194616FF00FF00F0 /* iADBanner */,
+				BA561ABE1946170000FF00F0 /* iADBannerTests */,
+				BA561A98194616FF00FF00F0 /* Frameworks */,
+				BA561A97194616FF00FF00F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA561A97194616FF00FF00F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA561A96194616FF00FF00F0 /* iADBanner.app */,
+				BA561AB71946170000FF00F0 /* iADBannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA561A98194616FF00FF00F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA561ACE1946170E00FF00F0 /* iAd.framework */,
+				BA561A99194616FF00FF00F0 /* Foundation.framework */,
+				BA561A9B194616FF00FF00F0 /* CoreGraphics.framework */,
+				BA561A9D194616FF00FF00F0 /* UIKit.framework */,
+				BA561AB81946170000FF00F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA561A9F194616FF00FF00F0 /* iADBanner */ = {
+			isa = PBXGroup;
+			children = (
+				BA561AA8194616FF00FF00F0 /* AppDelegate.h */,
+				BA561AA9194616FF00FF00F0 /* AppDelegate.m */,
+				BA561AAB194616FF00FF00F0 /* Main.storyboard */,
+				BA561AAE194616FF00FF00F0 /* ViewController.h */,
+				BA561AAF194616FF00FF00F0 /* ViewController.m */,
+				BA561AB1194616FF00FF00F0 /* Images.xcassets */,
+				BA561AA0194616FF00FF00F0 /* Supporting Files */,
+			);
+			path = iADBanner;
+			sourceTree = "<group>";
+		};
+		BA561AA0194616FF00FF00F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA561AD019461A3000FF00F0 /* animal-1.png */,
+				BA561AD119461A3000FF00F0 /* animal-2.png */,
+				BA561AD219461A3000FF00F0 /* animal-3.png */,
+				BA561AD319461A3000FF00F0 /* animal-4.png */,
+				BA561AA1194616FF00FF00F0 /* iADBanner-Info.plist */,
+				BA561AA2194616FF00FF00F0 /* InfoPlist.strings */,
+				BA561AA5194616FF00FF00F0 /* main.m */,
+				BA561AA7194616FF00FF00F0 /* iADBanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA561ABE1946170000FF00F0 /* iADBannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA561AC41946170000FF00F0 /* iADBannerTests.m */,
+				BA561ABF1946170000FF00F0 /* Supporting Files */,
+			);
+			path = iADBannerTests;
+			sourceTree = "<group>";
+		};
+		BA561ABF1946170000FF00F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA561AC01946170000FF00F0 /* iADBannerTests-Info.plist */,
+				BA561AC11946170000FF00F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA561A95194616FF00FF00F0 /* iADBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA561AC81946170000FF00F0 /* Build configuration list for PBXNativeTarget "iADBanner" */;
+			buildPhases = (
+				BA561A92194616FF00FF00F0 /* Sources */,
+				BA561A93194616FF00FF00F0 /* Frameworks */,
+				BA561A94194616FF00FF00F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iADBanner;
+			productName = iADBanner;
+			productReference = BA561A96194616FF00FF00F0 /* iADBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA561AB61946170000FF00F0 /* iADBannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA561ACB1946170000FF00F0 /* Build configuration list for PBXNativeTarget "iADBannerTests" */;
+			buildPhases = (
+				BA561AB31946170000FF00F0 /* Sources */,
+				BA561AB41946170000FF00F0 /* Frameworks */,
+				BA561AB51946170000FF00F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA561ABD1946170000FF00F0 /* PBXTargetDependency */,
+			);
+			name = iADBannerTests;
+			productName = iADBannerTests;
+			productReference = BA561AB71946170000FF00F0 /* iADBannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA561A8E194616FF00FF00F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cavernyu;
+				TargetAttributes = {
+					BA561AB61946170000FF00F0 = {
+						TestTargetID = BA561A95194616FF00FF00F0;
+					};
+				};
+			};
+			buildConfigurationList = BA561A91194616FF00FF00F0 /* Build configuration list for PBXProject "iADBanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA561A8D194616FF00FF00F0;
+			productRefGroup = BA561A97194616FF00FF00F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA561A95194616FF00FF00F0 /* iADBanner */,
+				BA561AB61946170000FF00F0 /* iADBannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA561A94194616FF00FF00F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA561AB2194616FF00FF00F0 /* Images.xcassets in Resources */,
+				BA561AA4194616FF00FF00F0 /* InfoPlist.strings in Resources */,
+				BA561AAD194616FF00FF00F0 /* Main.storyboard in Resources */,
+				BA561AD619461A3000FF00F0 /* animal-3.png in Resources */,
+				BA561AD519461A3000FF00F0 /* animal-2.png in Resources */,
+				BA561AD419461A3000FF00F0 /* animal-1.png in Resources */,
+				BA561AD719461A3000FF00F0 /* animal-4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA561AB51946170000FF00F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA561AC31946170000FF00F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA561A92194616FF00FF00F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA561AB0194616FF00FF00F0 /* ViewController.m in Sources */,
+				BA561AAA194616FF00FF00F0 /* AppDelegate.m in Sources */,
+				BA561AA6194616FF00FF00F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA561AB31946170000FF00F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA561AC51946170000FF00F0 /* iADBannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA561ABD1946170000FF00F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA561A95194616FF00FF00F0 /* iADBanner */;
+			targetProxy = BA561ABC1946170000FF00F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA561AA2194616FF00FF00F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA561AA3194616FF00FF00F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA561AAB194616FF00FF00F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA561AAC194616FF00FF00F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA561AC11946170000FF00F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA561AC21946170000FF00F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA561AC61946170000FF00F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA561AC71946170000FF00F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA561AC91946170000FF00F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iADBanner/iADBanner-Prefix.pch";
+				INFOPLIST_FILE = "iADBanner/iADBanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA561ACA1946170000FF00F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iADBanner/iADBanner-Prefix.pch";
+				INFOPLIST_FILE = "iADBanner/iADBanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA561ACC1946170000FF00F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iADBanner.app/iADBanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iADBanner/iADBanner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iADBannerTests/iADBannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA561ACD1946170000FF00F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iADBanner.app/iADBanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iADBanner/iADBanner-Prefix.pch";
+				INFOPLIST_FILE = "iADBannerTests/iADBannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA561A91194616FF00FF00F0 /* Build configuration list for PBXProject "iADBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA561AC61946170000FF00F0 /* Debug */,
+				BA561AC71946170000FF00F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA561AC81946170000FF00F0 /* Build configuration list for PBXNativeTarget "iADBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA561AC91946170000FF00F0 /* Debug */,
+				BA561ACA1946170000FF00F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA561ACB1946170000FF00F0 /* Build configuration list for PBXNativeTarget "iADBannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA561ACC1946170000FF00F0 /* Debug */,
+				BA561ACD1946170000FF00F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA561A8E194616FF00FF00F0 /* Project object */;
+}
